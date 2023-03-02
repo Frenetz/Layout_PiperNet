@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.main-header {
+  background-color: #007765;
+  color: #fff;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 24px;
+}
+
+.container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px 0;
+}
+
+/* .main-navigation {
+  padding: 0;
+} */
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-item1 {
+  margin-right: 8px;
+}
+
+.navigation-item2 {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.navigation-item3 {
+  margin-left: 8px;
+}
+
+.introduction {
+  background: url("../images/image-15.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.upper-container {
+  margin: 160px auto;
+}
+
+.intro {
+  font-weight: 500;
+  font-size: 72px;
+  color: white;
+}
+
+.problem-text {
+  background-color: #eee;
+}
+
+.problem-h {
+  color: #007765;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 75px;
+  font-weight: 500;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.problem-p {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.problem-bold-b {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.text {
+  margin-bottom: 92px;
+}
+
+.mission {
+  background: url("../images/image-14.png") center no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.mission-text {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+
+  font-style: italic;
+  font-size: 48px;
+  margin: 0;
+}
+
+.text-container {
+  padding: 128px 108px;
+}
+
+.text-including {
+  margin-bottom: 92px;
+}
+
+.text-including-h {
+  font-size: 64px;
+  color: #007765;
+  line-height: 75px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 48px;
+  margin-bottom: 16px;
+}
+
+.mini-logo {
+  float: left;
+  margin: 0 48px 15px 0;
+}
+
+.introduction-text-first {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-top: 0;
+}
+
+.introduction-texts {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-top: 35px;
+}
+
+.introduction-text-last {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37.5px;
+  margin-bottom: 0;
+}
+
+.whole-team {
+  background-color: #eeeeee;
+}
+
+.team-h {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  margin-top: 48px;
+  text-align: center;
+  display: block;
+}
+
+.teammates-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.teammates-list li {
+  width: 350px;
+  height: 283px;
+}
+
+li h3 {
+  color: #007765;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-top: 12px;
+}
+
+li p {
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 0;
+}
+
+/* .team-h {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  color: #007765;
+  margin-top: 48px;
+  text-align: center;
+}
+
+.teammates {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evently;
+  flex-wrap: wrap;
+}
+
+.team-card {
+  width: 300px;
+  height: 283px;
+}
+
+.card-content {
+  margin: auto;
+}
+
+.card-margin {
+  margin-left: 30px;
+} */
+
+.footer-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 48px 285px 64px;
+  color: white;
+  text-align: center;
+}
+
+.foot {
+  background-color: #333333;
+}
